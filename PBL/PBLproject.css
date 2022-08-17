@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    position: absolute;
+    left: 45%;
+    bottom: 90%;
+}
+
+.nav-link li{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    padding-top: 3px;
+    margin-bottom: 10px;
+    background-color: white;
+    color:rgb(0, 132, 255);
+    font-size: 1.5em;
+    border-bottom: solid 2px rgb(0, 132, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    position:absolute;
+    bottom:92%;
+    left:6%;
+    font-size: 2em;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+
+.logo:hover {
+    cursor: pointer;
+    border-bottom: solid 1px rgb(250, 250, 250);
+
+    
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a {
+    text-decoration:none;
+    color: rgb(0, 132, 255);
+    padding: 40px 20px 35px 20px;
+    margin-right: -10px;
+
+    
+}
+
+.nav a:hover{
+    background-color:rgb(0, 132, 255);
+    color: white;
+}
+
+.books {
+    display: list-item;
+    color: rgb(0, 132, 255);;
+        
+}
+
+.searchbar {
+    margin-top: 1%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 57%;
+    text-align: center;
+}
+
+.searchbar input[type=text] {
+    width: 50%;
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+    font-size: 1.3em;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 0px 5px;
+    border: none;
+ }
+
+article {
+    padding-top: 5px;
+}
+
+#submit  {
+        border-style: outset;
+    	border-right-style: inset;
+    	border-color:rgb(0, 132, 255);
+    	padding-top:5px;
+    	padding-left:0px;
+    	padding-right:0px;
+    	padding-bottom:5px;
+    	background-color:white;
+   	    border-bottom-right-radius:20px;
+        border-top-right-radius:20px;
+    	text-align:center;
+    	color:rgb(0, 132, 255);;
+    	width:10%;
+        font-size: 1em;
+}
+
+#submit:hover {
+    background-color:rgb(0, 132, 255);
+    transition: 0.2s;
+    cursor: pointer;
+    color: white;
+}
+
+#submit:active{
+    background-color: rgb(4, 84, 160);
+    border-color: rgb(4, 84, 160);
+    cursor: pointer;
+    color: white;
+}
+
+#search {
+    padding-bottom: 3px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: none;
+}
+
+#search:focus {
+    border: none;
+    background-color: aliceblue;
+    outline: none;
+}
+
+.list {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    transition: 0.8s;
+    display: inline-block;
+    height: 30%;
+    margin: 3%;
+    text-align: center;
+    margin-left: 5%;
+    
+}
+
+.list img{
+    width: 200px;
+    height: 250px;
+    transition: 0.3s;
+  
+}
+
+.list:hover{
+    box-shadow: 0 16px 24px 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+
+}
+
+.list img:hover{
+    width: 230px;
+    height: 280px;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+.department{
+    margin-top:0px;
+}
+.dept {
+    position:absolute;
+    top: 62px;
+    right:9px;
+    margin-top:0px;
+    display:none;
+}
+
+.dept li{
+    display:list-item;
+    min-width:205px;
+    background-color:whitesmoke;
+    margin-top:0px;
+    font-size:0.75em;
+    text-align:center;
+    border-bottom:solid 1px;
+    
+}
+
+.dept li:hover{
+    background-color:rgb(4, 84, 160);
+    color:white;
+    cursor:pointer;
+}
+
+.book-text{
+    color:black;
+    display: none;
+    transition: 0.3s;
+    height:280px;
+    width:230px;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+.contact button{
+    background-color: rgb(66, 202, 66);
+    padding: 3px;
+    margin:10px;
+    border-color: rgb(66, 202, 66);
+    border-radius: 5px;
+    font-size: 1.2em;
+    color:whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.list img:active{
+    visibility: hidden;
+    transition: none;
+    
+}
+
+footer {
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.8);
+    margin-bottom: 0%;
+    margin-top: 3%;
+    padding-bottom: 15%;
+    display: none;
+
+}
